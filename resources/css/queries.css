@@ -1,0 +1,157 @@
+@media only screen and (max-width: 1200px) {
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row {
+        padding: 0 2%;
+    }
+}  
+
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 14px;
+    }
+    section { 
+        padding: 50px 0;
+    }
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .howItWorks_box_left {
+        flex-direction: row;
+        justify-content: center;
+        padding: 1%;
+    }
+    .howItWorks_box_right {
+        padding: 1%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+
+    .mobile-nav-icon { 
+        display: inline-block;
+    }
+
+    section {
+        padding: 30px 0;
+    }
+
+    .row,
+    .hero-text-box {
+        padding: 0 4%;
+    }
+
+    h1 {
+        font-size: 170%;
+    }
+
+    h2 {
+        font-size: 140%;
+    }
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+    .long-copy {
+        width: 100%;
+    }
+
+    .cityBoxs {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .cityBox {
+        width: 80%;
+    }
+
+    .cityBox h3 {
+        margin-top: 10px;
+    }
+
+    .long-copy {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .howItWorks_box {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .howItWorks_box_left {
+        width: 80%;
+    }
+
+    .howItWorks_box_right {
+        width: 80%;
+    }
+
+    blockquote {
+        margin-bottom: 30px;
+    }
+
+    .contact-form {
+        width: 80%;
+    }
+
+    .footer-nav {
+        justify-content: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .main-nav {
+        flex-direction: column;
+        position: absolute;
+        left: 25%;
+        top: 30px;
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    h1 {
+        font-size: 140%;
+    }
+
+    h2 {
+        font-size: 120%;
+    }
+
+    .hero-text-box a {
+        margin-right: 10px;
+    }
+
+    .contact-form {
+        width: 90%;
+    }
+    .howItWorks_box_right img {
+        height: 45px;
+        width: auto;
+    }
+
+    .howItWorks_box_right:last-child a {
+        display: inline-block;
+        margin-right: 5px;
+        margin-top: 20px;
+    }
+
+    .main-nav {
+        left: 40%;
+    }
+}
+
